@@ -411,7 +411,7 @@ body.dark-theme {
 .home__description b {
   background: linear-gradient(
     90deg,
-    hsla(14, 98%, 50%, 0.3),
+    hsla(14, 98%, 50%, 0.4),
     hsla(14, 98%, 50%, 0)
   );
 }
@@ -641,8 +641,8 @@ body.dark-theme {
 .projects__button {
   position: absolute;
   right: 1rem;
-  bottom: -1.5rem;
-  padding: 1rem;
+  top: 1rem;
+  padding: .75rem;
 }
 .projects__content {
   margin-bottom: 1.25rem;
@@ -938,7 +938,7 @@ body.dark-theme {
 .dark-theme .home__description b {
   background: linear-gradient(
     90deg,
-    hsla(14, 80%, 50%, 0.3),
+    hsla(14, 80%, 50%, 0.4),
     hsla(14, 80%, 50%, 0)
   );
 }
@@ -1253,7 +1253,7 @@ body.dark-theme {
     font-size: 1.5rem;
   }
   .services__container {
-    grid-template-columns: repeat(3, 282px);
+    grid-template-columns: repeat(3,290px);
     column-gap: 5rem;
     padding-block: 3rem 5rem;
   }
@@ -1279,7 +1279,7 @@ body.dark-theme {
   }
   .projects__card {
     background-color: transparent !important;
-    padding: 1.25rem 1.25rem 2.5rem;
+    padding: 1.25rem 1.25rem 1rem;
   }
   .projects__card:hover {
     background-color: var(--cont-color) !important;
